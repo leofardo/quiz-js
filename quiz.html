@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>SHOW DO MILHÃO</title>
+		<meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+
+	<body>
+		<div id="inicioQuiz">
+			<div id="quiz">
+				<div id="perguntas">
+					<h1 id="perguntaTitulo"></h1>
+				</div>
+				<div id="respostas">
+					<button onclick="responder.resposta(document.getElementById('resposta1').innerHTML)" class="respostas" id="resposta1">
+						
+					</button>
+					<button onclick="responder.resposta(document.getElementById('resposta2').innerHTML)" class="respostas" id="resposta2">
+						
+					</button>
+					<button onclick="responder.resposta(document.getElementById('resposta3').innerHTML)" class="respostas" id="resposta3">
+						
+					</button>
+					<button onclick="responder.resposta(document.getElementById('resposta4').innerHTML)" class="respostas" id="resposta4">
+						
+					</button>
+				</div>
+			</div>
+		</div>
+
+		<div id="tabela">
+			<!-- <div class="cronometro">Tempo:&nbsp<span id="cronometro"></span></div> -->
+			<div id="score">Score: 0</div>			
+		</div>
+
+	</body>
+
+	<script src="script.js"></script>
+
+</html>
